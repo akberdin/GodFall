@@ -1,0 +1,50 @@
+game/
+  assets/
+    graphics/
+    audio/
+    fonts/
+  data/
+    maps/
+    quests/
+    dialogs/
+  engine/
+    input_manager.py
+    state_manager.py
+    game_world_manager.py
+    dialogue_manager.py
+    audio_manager.py
+    save_game_manager.py
+    asset_manager.py
+  game_objects/
+    entities/
+    items/
+    spells/
+    skills/
+  gui/
+    menus/
+    hud/
+  main.py
+  catalog.txt
+
+
+description for the structure of the code and game files for "Godfall: Rise of the Forgotten":
+
+The top-level game directory contains subdirectories for assets, data, engine, game_objects, gui, skills, fonts,
+and catalog. The assets directory includes subdirectories for graphics, audio, and fonts resources. The data
+directory includes subdirectories for maps, quests, and dialogs.
+
+The engine directory includes game engine modules such as input_manager, state_manager, game_world_manager,
+dialogue_manager, audio_manager, save_game_manager, and asset_manager.
+
+The game_objects directory contains subdirectories for entities, items, spells, and skills.
+The entities directory includes modules for game entities such as characters, enemies, and bosses.
+The items directory includes modules for items such as weapons, armor, and consumables.
+The spells directory includes modules for spell classes and their effects.
+And the skills directory includes modules for game skills and their implementations.
+
+The gui directory contains subdirectories for menus and hud. The menus directory includes modules for different
+game menus such as the main menu, options menu, and pause menu. The hud directory includes modules for the
+heads-up display, which provides information to the player about their character and the game world.
+
+The fonts directory includes font files used in the game, and the catalog file contains a description
+of all game files and resources.
