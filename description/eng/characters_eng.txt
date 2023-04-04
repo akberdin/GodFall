@@ -156,5 +156,15 @@ and only the most powerful and knowledgeable beings are able to harness its full
 
 
 
+Great heroes:
+Great heroes are beings who have performed remarkable deeds in their respective worlds.
+Their actions have had a significant impact on the world, making them stand out from the rest of the mortals.
+The deeds of a great hero can be both positive and negative, but they must be of such magnitude that they catch
+the attention of the gods. Only then will a great hero be considered for entry into the retinue of a god and be granted
+the privilege of living on the Tree. It is a rare and coveted honor, as it is the only way for mortals to ascend
+beyond their world and enter the realm of the divine.
+
+
+
 
 
