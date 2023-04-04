@@ -1,0 +1,28 @@
+1. Turn-based combat: The game will feature turn-based combat, where the player and enemies take turns to make moves.
+
+2. Character development: The player will be able to develop their character by earning experience points and leveling up.
+As the character levels up, they will gain access to new abilities and skills that can be used in combat.
+
+3. Crafting: The player will be able to craft items such as weapons and armor using materials collected in the game world,
+which includes resources gathered through mining and gathering.
+
+4. Companions: The player will be able to recruit companions, including gods, heroes, and creatures, who will assist them
+in combat and provide bonuses to the player's abilities.
+
+5. Divine halls: The player will have access to divine halls where they can upgrade their abilities, trade with NPCs,
+receive quests, and communicate with companions.
+
+6. Zone events: Each zone in the game world will have its own set of events, such as ambushes, traps, puzzles,
+and boss battles, as well as resource nodes for mining and gathering.
+
+7. Godly spheres: The gods in the game will each possess a sphere of influence, such as war, wisdom, or magic.
+The player can gain access to these spheres by completing quests or defeating bosses.
+
+8. Dynamic storyline: The game will feature a dynamic storyline that changes based on the player's choices and actions.
+The player will be able to influence the game's ending based on their decisions.
+
+9. Randomized loot: Enemies in the game will drop randomized loot, including weapons, armor, and crafting materials.
+Additionally, resource nodes for mining and gathering will be scattered throughout the game world.
+
+10. Multiple difficulties: The game will feature multiple difficulties, including easy, normal, and hard,
+allowing players to choose the level of challenge they prefer.

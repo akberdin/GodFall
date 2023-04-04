@@ -1,0 +1,61 @@
+We will be developing a computer RPG game (in the style of "dungeon darkest") called: "Godfall: Rise of the Forgotten".
+Development will be done by one person in Python. Libraries will be used during development: PyTMX, PyInstaller,
+PyTweening, Pygame_gui, Pygame-menu, Pygame-sdl2, Pygame Zero, PyOpenGL, SQLite.
+
+Brief plot:
+    "Godfall: Rise of the Forgotten":
+
+    The player takes on the role of a forgotten god who has lost their memory and abilities.
+
+    The player's goal is to reach the top of the Tree of Gods and find the Tree Maker to uncover the truth about their
+    identity.
+
+    Along the way, the player will encounter various gods, heroes, and creatures who can assist them in their journey.
+
+    The game world consists of 80 levels, each with 20 zones that the player must traverse to progress further up the tree.
+
+    Each zone will present unique challenges and events, including resource nodes for mining and gathering.
+
+    The player will need to develop their character by earning experience points, leveling up, and acquiring new abilities
+    and skills.
+
+    The gods in the game each possess a sphere of influence that the player can gain access to by completing quests or
+    defeating bosses.
+
+    The storyline is dynamic and will change based on the player's choices and actions, culminating in multiple possible
+    endings depending on the player's decisions.
+
+    The game will feature turn-based combat, crafting, and randomized loot drops from enemies.
+
+    The ultimate goal is to reach the Tree Maker and uncover the truth about the player's identity, culminating in a final
+    battle with a powerful enemy.
+
+Main mechanics:
+    1. Turn-based combat: The game will feature turn-based combat, where the player and enemies take turns to make moves.
+
+    2. Character development: The player will be able to develop their character by earning experience points and leveling up.
+    As the character levels up, they will gain access to new abilities and skills that can be used in combat.
+
+    3. Crafting: The player will be able to craft items such as weapons and armor using materials collected in the game world,
+    which includes resources gathered through mining and gathering.
+
+    4. Companions: The player will be able to recruit companions, including gods, heroes, and creatures, who will assist them
+    in combat and provide bonuses to the player's abilities.
+
+    5. Divine halls: The player will have access to divine halls where they can upgrade their abilities, trade with NPCs,
+    receive quests, and communicate with companions.
+
+    6. Zone events: Each zone in the game world will have its own set of events, such as ambushes, traps, puzzles,
+    and boss battles, as well as resource nodes for mining and gathering.
+
+    7. Godly spheres: The gods in the game will each possess a sphere of influence, such as war, wisdom, or magic.
+    The player can gain access to these spheres by completing quests or defeating bosses.
+
+    8. Dynamic storyline: The game will feature a dynamic storyline that changes based on the player's choices and actions.
+    The player will be able to influence the game's ending based on their decisions.
+
+    9. Randomized loot: Enemies in the game will drop randomized loot, including weapons, armor, and crafting materials.
+    Additionally, resource nodes for mining and gathering will be scattered throughout the game world.
+
+    10. Multiple difficulties: The game will feature multiple difficulties, including easy, normal, and hard,
+    allowing players to choose the level of challenge they prefer.

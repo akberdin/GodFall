@@ -12,7 +12,8 @@ The image_list, sound_list, and font_list parameters are lists of filenames for 
 The loaded assets are stored in the corresponding dictionaries with the asset name as the key.
 The convert_alpha method is used for loading images to optimize their rendering performance.
 
-With this asset_manager.py code, we can easily load and manage game assets from the assets folder."""
+With this asset_manager.py code, we can easily load and manage game assets from the assets folder.
+"""
 
 
 import pygame
