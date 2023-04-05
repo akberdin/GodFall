@@ -1,94 +1,339 @@
-We will be developing a computer RPG game (in the style of "dungeon darkest") called: "Godfall: Rise of the Forgotten".
-Development will be done by one person in Python. Libraries will be used during development: PyTMX, PyInstaller,
-PyTweening, Pygame_gui, Pygame-menu, Pygame-sdl2, Pygame Zero, PyOpenGL, SQLite.
+We are writing a story for the universe of the computer game "Godfall: Rise of the Forgotten".
+At the moment there are several elements of this world:
 
-Brief plot:
-    "Godfall: Rise of the Forgotten":
 
-    The player takes on the role of a forgotten god who has lost their memory and abilities.
+Creator:
+The Creator is the supreme being in the mythology of the Tree of Worlds. The origin of the Creator is unknown,
+and the gods and mortals alike believe that it is beyond the understanding of their finite minds.
+It is said that the Creator gave birth to the Tree of Worlds from the sprout of the Tree and created the first world-leaf.
 
-    The player's goal is to reach the top of the Tree of Gods and find the Tree Maker to uncover the truth about their
-    identity.
+The Creator is omniscient and all-seeing, and nothing escapes His sight. The gods and mortals believe that
+the Creator has the power to control the fate of all beings on the Tree, and that His will is absolute.
 
-    Along the way, the player will encounter various gods, heroes, and creatures who can assist them in their journey.
+In the early days of the Tree, the Creator was known to intervene in the affairs of the gods and the inhabitants
+of the worlds-leaves, but over time, He stopped interfering and allowed them to grow and develop on their own.
 
-    The game world consists of 80 levels, each with 20 zones that the player must traverse to progress further up the tree.
+The first gods were created by the faith of the intelligent beings of the first world-leaf, and the Creator liked them.
+He brought them closer to Him, allowed them to live on the Tree of Worlds, create their own worlds-leaves,
+and shared with them some of His knowledge and strength. The first five gods were the most favored of the Creator,
+and they were said to have reached the heights of the Creator and left the Tree to grow Their Tree of Worlds.
 
-    Each zone will present unique challenges and events, including resource nodes for mining and gathering.
+The Creator is revered and feared by the gods and mortals alike, and any action that can damage the Tree of Worlds
+is considered the most terrible attack and is punished accordingly. The gods and mortals believe that the Creator's
+judgment is final and that His laws must be followed without question.
 
-    The player will need to develop their character by earning experience points, leveling up, and acquiring new abilities
-    and skills.
 
-    The gods in the game each possess a sphere of influence that the player can gain access to by completing quests or
-    defeating bosses.
 
-    The storyline is dynamic and will change based on the player's choices and actions, culminating in multiple possible
-    endings depending on the player's decisions.
+The Shadows of the Creator:
+The Shadows of the Creator are mysterious entities that are said to embody the aspects of the Creator's power and will.
+There are two Shadows, known as the Shadow of Order and the Shadow of Chaos.
 
-    The game will feature turn-based combat, crafting, and randomized loot drops from enemies.
+The Shadow of Order is said to be a being of pure logic and reason, embodying the Creator's desire for structure and control.
+It is said to be a creature of light, radiating a cold and calculating energy. Some believe that the Shadow of Order
+has the ability to manipulate reality itself, bending it to its will and imposing its own sense of order on the world.
 
-    The ultimate goal is to reach the Tree Maker and uncover the truth about the player's identity, culminating in a final
-    battle with a powerful enemy.
+The Shadow of Chaos, on the other hand, is said to be a being of pure passion and unpredictability,
+embodying the Creator's desire for creativity and change. It is said to be a creature of darkness,
+with a wild and untamed energy. Some believe that the Shadow of Chaos has the ability to sow discord
+and chaos wherever it goes, unleashing unpredictable and dangerous energies.
 
-Main mechanics:
-    1. Turn-based combat: The game will feature turn-based combat, where the player and enemies take turns to make moves.
+Despite their differences, the Shadows are said to be bound together in an eternal dance, each influencing and shaping the other.
+Some even believe that the Shadows are the true architects of the Tree of Worlds, and that their influence can be felt
+in every aspect of creation. However, little is truly known about the Shadows, and their true nature and purpose
+remain shrouded in mystery.
 
-    2. Character development: The player will be able to develop their character by earning experience points and leveling up.
-    As the character levels up, they will gain access to new abilities and skills that can be used in combat.
 
-    3. Crafting: The player will be able to craft items such as weapons and armor using materials collected in the game world,
-    which includes resources gathered through mining and gathering.
 
-    4. Companions: The player will be able to recruit companions, including gods, heroes, and creatures, who will assist them
-    in combat and provide bonuses to the player's abilities.
+The Tree of Worlds:
+The Tree of Worlds is a vast, mythical tree that is said to be the source of all life in the universe.
+It is the embodiment of the will of the Creator and serves as the foundation of the world and all its realms.
 
-    5. Divine halls: The player will have access to divine halls where they can upgrade their abilities, trade with NPCs,
-    receive quests, and communicate with companions.
+According to legend, the Creator gave birth to the Tree from a sprout, and created the first world-sheet on its branches.
+The first gods were allowed to live on the Tree, and the Creator wrote the laws that must be observed by all
+beings who stepped on the Tree. As time passed, the Tree continued to grow, giving rise to new levels of branches
+and leaf worlds, reaching fifty-two levels in its crown and twenty-nine levels in its roots.
 
-    6. Zone events: Each zone in the game world will have its own set of events, such as ambushes, traps, puzzles,
-    and boss battles, as well as resource nodes for mining and gathering.
+The zero level of the Tree is a sacred dwelling place of the gods, where young gods must learn the laws of the Tree
+and themselves, and learn how to use their power. The passage of time within the Tree is a natural cycle
+that must be respected, and any attempt to interfere or change the natural flow of time will be perceived as a great insult.
 
-    7. Godly spheres: The gods in the game will each possess a sphere of influence, such as war, wisdom, or magic.
-    The player can gain access to these spheres by completing quests or defeating bosses.
+The Tree of Worlds is considered to be one of the most important symbols of the universe, representing
+the interconnectedness of all life and the divine will that governs it. Its importance is reflected in
+the laws that have been created to protect it, and any action or inaction that can damage the Tree is considered
+the most terrible attack and is punished accordingly.
 
-    8. Dynamic storyline: The game will feature a dynamic storyline that changes based on the player's choices and actions.
-    The player will be able to influence the game's ending based on their decisions.
 
-    9. Randomized loot: Enemies in the game will drop randomized loot, including weapons, armor, and crafting materials.
-    Additionally, resource nodes for mining and gathering will be scattered throughout the game world.
+The Great Chaos:
+The Great Chaos is a primordial force that exists outside the Tree of Worlds and the order it represents.
+It is the antithesis of the Creator and seeks to destroy the Tree and all that it stands for.
 
-    10. Multiple difficulties: The game will feature multiple difficulties, including easy, normal, and hard,
-    allowing players to choose the level of challenge they prefer.
+According to legend, the Chaos was born from the primordial void that existed before the Tree of Worlds.
+It is said that the Chaos is the raw essence of entropy, destruction, and change. It seeks to tear down order
+and structure wherever it finds it, and to return everything to a state of primordial chaos.
+
+In the early days of the Tree, the Chaos was held at bay by the power of the Creator and the order of the Tree.
+But over time, beings who were drawn to chaos and destruction emerged from the Tree's many branches and worlds.
+They became known as Chaosites, and they began to worship the Great Chaos as a god.
+
+The Chaosites sought to spread chaos and destruction throughout the Tree, and they waged war against the gods
+who sought to maintain order. The chaos they unleashed threatened to destroy the Tree itself, and it was
+only through the combined efforts of the gods that the Chaosites were eventually defeated.
+
+Today, the Great Chaos remains a potent force in the universe, always seeking to undermine the order of
+the Tree and to return everything to a state of primordial chaos. The gods remain ever vigilant against its influence,
+and they continue to work to maintain the balance and order of the Tree.
+
+
+
+The Gods:
+In the mythology of many cultures, gods are divine beings who possess supernatural powers and are worshiped by humans.
+In the context of the Tree of Worlds, the gods are powerful beings who reside on the Tree and are responsible for
+the creation and maintenance of the leaf worlds.
+
+According to the mythology of the Tree, the first gods were created by the Creator and were given the task of living
+on the Tree and carrying out His will. As time passed, more and more gods were created, and each was given
+a specific task or domain to oversee.
+
+The gods of the Tree are diverse and have different personalities and abilities. Some are benevolent and kind,
+while others are more mischievous or malevolent. However, all of the gods are bound by the laws of the Tree and
+must act in accordance with the will of the Creator.
+
+Throughout the history of the Tree, the gods have played a significant role in shaping the destiny of the leaf worlds.
+Some have acted as protectors or guides, while others have been responsible for great catastrophes or wars.
+Despite their power and influence, however, the gods are not immortal and can be killed or destroyed by other gods
+or powerful beings.
+
+The mythology of the gods on the Tree of Worlds is complex and multifaceted, with different cultures and belief
+systems having their own unique interpretations of the gods and their roles. Nevertheless, they remain an integral
+part of the Tree's cosmology and continue to be a source of fascination and inspiration for many.
+
+
+
+The First Five (Forgotten):
+The First Five, also known as the Forgotten, were the earliest and most powerful gods to exist in the Tree of Worlds.
+Their identities and deeds have been lost to time, and even their existence is now questioned by some.
+According to legend, they were present during the creation of the Tree and were instrumental in establishing
+the laws and order that govern the gods and the Tree.
+
+Over time, however, the First Five disappeared and ceased to appear among the other gods, leading many to speculate
+about their fate. Some believe that they withdrew to a higher plane of existence, while others think they perished
+in some great conflict. Regardless of what happened to them, the legacy of the First Five lives on in the reverence
+shown to them by the other gods and in the belief that their power and wisdom surpassed that of all who followed.
+
+
+
+Chaos Adepts (Chaosites):
+Chaos Adepts, also known as Chaosites, are beings who have chosen to follow the path of Chaos.
+They are individuals who reject order and seek to bring about the destruction of the existing world
+and the creation of a new one. Chaosites believe that change is necessary for growth and progress and
+that chaos is a necessary force for this change to occur.
+
+The history of Chaosites is intertwined with the history of the Tree of Worlds. According to legend,
+the First Five were the first gods to appear on the Tree, and their disappearance marked the beginning of Chaosites' emergence.
+The absence of the First Five created a power vacuum, which Chaosites sought to fill by advocating for
+the destruction of the current order and the establishment of a new one.
+
+Chaosites have been known to use various methods to achieve their goals, including manipulation,
+deception, and even violence. Their ultimate aim is to bring about a world free from the constraints of order and rules,
+where chaos reigns supreme. However, their actions often bring about destruction and suffering, and they
+are viewed with suspicion and fear by many other beings on the Tree.
+
+
+
+Creatures of Chaos:
+Creatures of Chaos are beings that dwell in the lower levels of the roots of the Tree of Worlds,
+beyond the reach of the Keepers of the Law. They are chaotic and unpredictable in nature, and their existence
+is shrouded in mystery and legends.
+
+According to some tales, the Creatures of Chaos were the first beings to emerge from the Great Chaos,
+before the gods and mortals came to be. They are said to be the remnants of the chaotic energies that permeate the universe,
+given form and consciousness by the will of the Great Chaos.
+
+Others believe that they were created by the gods as a test of their power and wisdom, or as a punishment
+for mortals who defied their will. Whatever their origin, the Creatures of Chaos are feared and respected by many,
+and their power and influence are not to be underestimated.
+
+There are many different kinds of Creatures of Chaos, each with their own abilities and characteristics.
+Some are mindless and animalistic, while others are cunning and intelligent. Some can take on multiple forms,
+while others are limited to a single form. Many of them possess great magical powers, and are capable
+of unleashing devastating spells and curses upon their enemies.
+
+Due to their chaotic nature, the Creatures of Chaos are often seen as a threat to the stability and order of the Tree of Worlds.
+The Keepers of the Law are tasked with keeping them in check, but their power and influence are limited in the
+lower levels of the roots of the Tree. As a result, many mortals and even some gods avoid venturing too deep into the roots,
+for fear of encountering these unpredictable and dangerous beings.
+
+
 
 Laws of the Tree:
-    1. This Tree is the foundation of our world, the source of all life and the embodiment of the Creator's will.
-    Any attempt to harm or defile it is a grave offense, punishable by the full extent of the law.
+The Laws of the Tree of Worlds are the set of rules that govern the behavior and interactions of all beings in the Tree,
+from the gods to the mortal creatures that dwell in its leaf worlds. These laws were written by the Creator and must be
+obeyed by all who step on the Tree, or face the consequences of their actions.
 
-    2. The Creator is all-knowing and all-seeing. Nothing escapes His gaze, and every action will be judged according
-    to His divine will. Fear His judgment, and live by His laws.
+The laws cover a wide range of topics, including the sacredness of the Tree, the inviolability of oaths made in
+the Creator's name, the importance of maintaining balance and order in the world, and the sanctity of
+the zero level of the Tree, which is the dwelling place of the gods.
 
-    3. An oath sworn in His name is sacred and unbreakable. To betray such an oath is to invite the wrath of the Creator,
-    and suffer the consequences of His judgment.
+The history of the Laws of the Tree of Worlds is closely tied to the history of the Tree itself.
+As the Tree grew and developed, new laws were added to govern new situations and challenges that arose.
+The Keepers of the Law, who act as the voice and hand of the Creator, were tasked with enforcing these laws
+and ensuring that justice was served.
 
-    4. Honor the Guardians of the Law, the custodians of the Creator's will. They act as His voice and His hand,
-    ensuring that His laws are obeyed and His justice is served.
+Over time, some beings began to chafe under the strictures of the Laws, and some even sought to break them.
+Chaos Adepts, for example, reject the laws of the Tree in favor of their own chaotic principles. However,
+the Keepers of the Law have always been vigilant in their duty to uphold the laws and maintain order in
+the Tree, and any who would seek to flout the laws do so at their own peril.
 
-    5. The Tree does not discriminate between its creatures, and all are entitled to its bounty.
-    Those who hoard or waste its gifts will be punished.
+The Lows:
+1. The Tree of Worlds is the foundation of our world, the source of all life, and the embodiment of the will of the Creator.
+Any action or inaction that can damage the Tree is a terrible offense and will be punished accordingly.
 
-    6. The Book of the Life of the gods is sacrosanct. No being, mortal or divine, may alter the past of a god
-    or interfere with their destiny.
+2. The Creator is all-knowing and all-seeing. Do not attract His attention in vain, for you risk arousing His curiosity.
 
-    7. The great balance must always be maintained. Any interference with the fate of the world or its creatures
-    has its price, and those who upset the balance should know that the reckoning is inevitable.
+3. Oaths made in the name of the Creator are sacred and inviolable. To break such an oath is to invite the wrath of
+the Creator and face His judgment.
 
-    8.  The zero level of the Tree is the sacred dwelling place of the gods. All who enter must show reverence and respect.
-    Any display of unmotivated aggression is strictly forbidden and will be met with swift and severe punishment
-    by the Guardians of the Law.
+4. Honor the Keepers of the Law, who act as the voice and hand of the Creator, ensuring that His laws are upheld
+and justice is served.
 
-    9. The passing of time within the Tree is a natural cycle that must be respected. Any attempt to interfere
-    or alter the natural flow of time will be seen as a great offense and will draw the attention of the Creator's gaze.
+5. The Tree makes no distinctions between its beings, and all are entitled to its bounty. Appreciate
+the generosity of the Tree.
 
-    10. The pursuit of knowledge is a worthy endeavor, but not all knowledge is meant to be known.
-    Those who seek knowledge beyond the limits of what is permitted by the Tree's will do so at their own peril.
-    The Tree holds the secrets of the universe, and only those deemed worthy by the Creator may unlock them.
+6. The Book of the Life of the Gods is sacred. No being, mortal or divine, can change a god's past or interfere
+with their destiny.
+
+7. A great balance must be maintained. Any interference with the fate of the world or its creatures has its price,
+and those who upset the balance will face retribution.
+
+8. The zero level of the Tree is the sacred dwelling place of the gods. All who enter must show deference and respect.
+Any manifestation of unmotivated aggression is strictly prohibited and punished immediately and severely.
+
+9. The passage of time within the Tree is a natural cycle that must be respected. Any attempt to interfere or
+change the natural flow of time will be perceived as a great insult and will attract the Creator's attention.
+
+10. The pursuit of knowledge is a worthy occupation, but not all knowledge is meant to be known.
+Those who seek knowledge beyond what is permitted by the will of the Tree do so at their own peril and risk.
+The Tree keeps secrets of the universe, and only those deemed worthy by the Creator can unlock them.
+
+
+
+The Keepers of the Law:
+The Keepers of the Law are a group of powerful beings who act as enforcers of the laws of the Tree of Worlds,
+serving as the voice and hand of the Creator. They ensure that all beings who inhabit the Tree follow the
+laws set forth by the Creator and punish those who violate them.
+
+The history of the Keepers of the Law is closely tied to the creation of the Tree and the emergence of the first gods.
+As the Tree began to grow and new levels and leaf worlds appeared, the Creator saw the need to establish laws to
+maintain order and prevent chaos.
+
+The Creator selected a group of powerful beings from among the gods and granted them the authority to enforce His laws.
+These beings became known as the Keepers of the Law and were given the responsibility to maintain order and balance
+within the Tree.
+
+Over time, the Keepers of the Law became a powerful force within the Tree, feared and respected by all who inhabited it.
+They developed their own hierarchy and methods of enforcement, and their word became law in all matters relating
+to the Tree.
+
+Today, the Keepers of the Law continue to serve as guardians of the Tree, ensuring that the laws of the Creator
+are upheld and that the balance of the universe is maintained. Their power and authority are unmatched,
+and their judgment is final.
+
+
+
+The Book of the Life of the gods:
+The Book of the Life of the Gods is a sacred text that contains the recorded history and destiny
+of every god that has ever existed. It is said that the book is written by the Creator himself and
+kept under the care of the Keepers of the Law. The book is said to contain not only the past and future of the gods,
+but also their present state, thoughts, and emotions.
+
+According to the legends, the Book of the Life of the Gods has always existed, and it is said to be one of the oldest
+and most powerful artifacts in the Tree of Worlds. Its existence is known to all gods, but only a select few have ever
+been allowed to read its pages. It is said that reading the book is a life-changing experience, and those
+who are deemed worthy by the Keepers of the Law are granted access to it.
+
+The book has been the subject of many disputes and conflicts between the gods throughout history.
+Some have sought to alter their destiny, while others have tried to use the book to gain power and influence.
+However, the Keepers of the Law are fiercely protective of the book and will go to great lengths to ensure its safety
+and the integrity of its contents.
+
+In summary, the Book of the Life of the Gods is a powerful and mysterious artifact that plays a significant
+role in the mythology of the Tree of Worlds. Its history and origins are shrouded in mystery, but it is revered
+and respected by all who know of its existence.
+
+
+
+The Heart of God:
+The Heart of God is the essence of a god's being, containing their soul and serving as the primary vessel for their
+"Faith Points." The size and weight of a god's heart are directly proportional to their level of power and exaltation.
+The smallest hearts belong to the lowest-ranked gods, weighing only a few grams, while the hearts of the most powerful
+gods can weigh hundreds of grams.
+
+The destruction of a god's heart is the ultimate form of defeat, as it means the complete annihilation of their being.
+It is said that even the most ancient and powerful gods fear for the safety of their hearts, as they know that any
+attack aimed at it could spell their doom.
+
+Despite their importance, the exact nature and properties of the Heart of God are still largely unknown,
+even to the gods themselves. Many myths and legends surround it, and it is considered one of the most sacred
+and mysterious objects in all of creation.
+
+As a result, the Heart of God is heavily guarded and fiercely protected, with only the most trusted and loyal
+servants of a god allowed access to it. Some gods have been known to create powerful artifacts to protect their
+hearts, while others rely on their own strength and cunning to keep them safe.
+
+
+
+Adamant:
+Adamant is a divine metal that is one of the most valuable and rare materials on the Tree. The hearts of all
+the gods consist of adamant, and it is said that holding a tiny piece of adamant in your hands means that
+it was once part of the heart of some god.
+
+Because of its divine origin, adamant is imbued with great power, and possession of it can potentially allow
+one to wield tremendous influence and control. This makes it highly coveted by mortals and gods alike, and its scarcity
+means that it is often the subject of conflict and competition.
+
+It is also believed that the gods can manipulate adamant to create powerful artifacts or imbue their followers
+with special abilities. The true nature and properties of adamant are still largely unknown to mortals,
+and only the most powerful and knowledgeable beings are able to harness its full potential.
+
+
+
+Points of Faith:
+Points of Faith, also known simply as Faith, are a universal source of power for the gods.
+They can receive, save, and transform these points into material values, miracles, and deeds.
+The more complex the object or deed, the more faith points are needed.
+
+Faith points can be obtained from various sources, including the god's followers, higher entities
+of the Tree, defeated gods and creatures, and as rewards or gifts from other gods. The main repository
+of a god's Faith is their adamant heart, which can store varying amounts depending on its size.
+
+While there are artifacts that can store faith points, they are expensive and rare. As a result,
+the most significant source of Faith for a god is their followers. Thus, many gods invest in
+gaining and maintaining a large and devoted flock.
+
+The exact nature and properties of Faith points are not fully understood by mortals,
+and only the most powerful and knowledgeable beings can harness their full potential.
+However, it is known that Faith is a potent force that can be used for both good and ill.
+Therefore, many beings on the Tree covet it and will stop at nothing to obtain it.
+
+
+
+The personal halls of a God:
+The personal halls of a God are a manifestation of their divine power and wealth.
+It is a place that transcends the boundaries of time and space, existing in a realm that is
+solely created and maintained by the will of the God. The appearance and dimensions of each hall are unique,
+tailored to the desires and tastes of its owner. Some may resemble grand palaces, while others may take the form
+of humble abodes or even surreal landscapes.
+
+The halls are protected by powerful enchantments and wards, preventing any unwanted intrusion or disturbance.
+The treasures within the halls are guarded by powerful magical constructs or loyal servants, ensuring their safety and integrity.
+
+Within the halls, the God can indulge in their creative pursuits, crafting powerful artifacts, experimenting
+with new spells or simply reflecting on their existence. The halls also serve as a place of solitude,
+where the God can retreat from the stresses and demands of the mortal realm and meditate on their divine purpose.
+
+Only the wealthiest and most powerful of gods can afford to maintain personal halls, as the cost of creating
+and maintaining such a place is immense. Nonetheless, it is considered a symbol of status and prestige among
+the divine beings, and those who possess one are often held in high regard by their peers.
+
+
+Find contradictions and illogicalities. Explain why.
